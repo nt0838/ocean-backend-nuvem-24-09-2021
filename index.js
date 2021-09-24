@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 (async () => {
-    const url = "mongodb+srv://admin:Albert1905@@cluster0.tt6dr.mongodb.net/";
+    const url = "mongodb+srv://admin:nt12345678@cluster0.tt6dr.mongodb.net/";
     const dbName = "ocean_bancodados_22_09_2021";
 
     const client = await MongoClient.connect(url);
